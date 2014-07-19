@@ -23,13 +23,11 @@ The class that tests the installation of a particular product.
     def setUp(self):
         self.portal = self.layer['portal']
         self.qi = api.portal.get_tool(name='portal_quickinstaller')
-
-    def test_installed(self):
-        """
-This method test the default GenericSetup profile of this package.
 """
+    def test_installed(self):
         qi = getattr(self.portal, 'portal_quickinstaller')
         self.assertTrue(qi.isProductInstalled(PROJECTNAME))
+"""
 
     def test_dependencies_installed(self):
         """
