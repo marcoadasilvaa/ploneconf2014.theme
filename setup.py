@@ -25,7 +25,7 @@ setup(name='ploneconf2014.theme',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'setuptools',
+          'setuptools==0.6c11',
           'z3c.jbot',
           'plone.api',
           # -*- Extra requirements: -*-
