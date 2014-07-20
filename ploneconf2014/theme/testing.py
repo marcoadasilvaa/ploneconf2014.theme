@@ -15,10 +15,9 @@ from plone.app.testing import applyProfile
 from plone.app.testing import PLONE_FIXTURE
 from plone.app.testing import IntegrationTesting
 from plone.app.testing import FunctionalTesting
-from plone.testing import Layer
 from zope.configuration import xmlconfig
 
-class Fixture(Layer):
+class Fixture(PloneSandboxLayer):
 
     defaultBases = (PLONE_FIXTURE,)
 
