@@ -23,4 +23,8 @@
     cacheable="False" compression="safe" cookable="False"
     enabled="True" expression=""  inline="False" />
  -->
+  <javascript
+    id="++resource++ploneconf2014.theme.javascripts/helloworld.js"
+    cacheable="False" compression="safe" cookable="False"
+    enabled="True" expression=""  inline="False" />
 </object>
